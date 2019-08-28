@@ -97,14 +97,15 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #f16059;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Gayathri', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1.2em;
   height: 100%;
 }
 
@@ -128,7 +129,10 @@ body {
   width: 30%;
 }
 
-
+.div-1, .div-2 {
+  border-right: 1px solid #fff;
+  padding-right: 30px;
+}
 
 
 /* ==========================================================================
