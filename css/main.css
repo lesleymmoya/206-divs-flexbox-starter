@@ -96,44 +96,102 @@ textarea {
    ========================================================================== */
 
 
-html {
-  background-color: #f16059;
-  height: 100%;
-  width: 100%;
-}
 
-body {
-  font-family: 'Gayathri', sans-serif;
-  padding: 2em;
-  font-size: 1.2em;
-  height: 100%;
-}
+   html {
+     background-color: #ff6a4d;
+     height: 100%;
+     width: 100%;
+   }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
-  display: flex;
-  justify-content: space-between;
-}
+   body {
+     font-family: 'Gayathri', sans-serif;
+     padding: 0 2em;
+     font-size: 1.2em;
+     height: 100%;
+     color: #fff;
+   }
 
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-}
+    header {
+      background-color: #ff6a4d;
+      height: 95px;
+      width: 100%
+    }
 
-.div-1, .div-2 {
-  border-right: 1px solid #fff;
-  padding-right: 30px;
-}
+    footer {
+      background-color: #ff6a4d;
+      height: 50px;
+      width: 100%;
+      margin-top: 15px;
+      border-top: 1px solid #fff;
+    }
 
+    footer img {
+      padding: 20px 20px 0 0;
+    }
+
+    main {
+      background-color: #ff6a4d;
+      height: 290px;
+      width: 100%;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #fff;
+    }
+
+    h1 {
+      font-size: 3.5em;
+      padding-top: .5em;
+    }
+
+    h2 span {
+    text-decoration: underline;
+    }
+
+    header,
+    footer,
+    main {
+      display: flex;
+    	justify-content: flex-start;
+    	align-items: center;
+    }
+
+    #div-1,
+    #div-2,
+    #div-3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      line-height: 1.5em;
+      font-size: 1.25em;
+      background-color: #ff6a4d;
+      height: 300px;
+      width: 30%;
+    }
+
+   .flex-container {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .flex-items {
+     /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+     color: #fff;
+     line-height: 1.5em;
+     font-size: 1.6em;
+     background-color: #ff6a4d;
+     width: 30%;
+     height: 250px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+   #div-1, #div-2 {
+     border-right: 1px solid #fff;
+     padding-right: 30px;
+   }
 
 /* ==========================================================================
    Helper classes
